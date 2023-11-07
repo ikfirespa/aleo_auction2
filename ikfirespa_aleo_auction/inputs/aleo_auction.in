@@ -1,0 +1,18 @@
+// The program input for auction/src/main.leo
+[start_auction]
+item_id: u64 = 10u64;
+starting_bid: u64 = 100u64;
+end_time: u32 = 1231313123u32;
+
+
+[place_bid]
+auction_id: u64 = 10u64;
+bid_amount: u64 = 10u64;
+
+
+[close_auction]
+auction_id: u64 = 10u64;
+end_time: u32 = 1231313232u32;
+
+[cancel_auction]
+auction_id: u64 = 10u64;
